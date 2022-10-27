@@ -1,4 +1,13 @@
 POST http://localhost:7071/api/HttpTrigger1?name=Alessandro
 
 ###
-POST https://github-innovation-001.azurewebsites.net/api/HttpTrigger1?code=DdmzYwOirOEujF2HhmSLJT04HC_bfcG1n47AG0k2-UdfAzFus8WX9w==&name=Alessandro
+POST https://github-innovation-001.azurewebsites.net/api/HttpTrigger1?code=DdmzYwOirOEujF2HhmSLJT04HC_bfcG1n47AG0k2-UdfAzFus8WX9w==&name=GitHub Innovation Series
+
+
+###
+POST https://github-innovation-001.azurewebsites.net/api/HttpTrigger1?code=DdmzYwOirOEujF2HhmSLJT04HC_bfcG1n47AG0k2-UdfAzFus8WX9w==
+Content-Type: application/json
+
+{
+    "name": "GitHub Innovation Series via body"
+}
